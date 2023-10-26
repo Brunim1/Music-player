@@ -78,10 +78,21 @@ button {
   }
   
   #progress-container {
-    padding-bottom: 1em;
     cursor: pointer;
   }
 
   .button-active {
     color: rgb(27, 197, 27);
+  }
+
+  .button-active-like {
+    color: rgb(187, 37, 17);
+  }
+
+  #time-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: smaller;
+    margin-top: 0.5em;
   }
